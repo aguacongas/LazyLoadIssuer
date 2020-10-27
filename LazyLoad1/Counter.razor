@@ -1,16 +1,25 @@
 @page "/counter"
-
+@inject NavigationManager _navigationManager
 <h1>Counter</h1>
 
 <p>Current count: @currentCount</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
+<input @bind="value"/>
+<button class="btn btn-primary" @onclick="Navigate">Lazy load with param</button>
+
 @code {
     private int currentCount = 0;
+    private string value;
 
     private void IncrementCount()
     {
         currentCount++;
+    }
+
+    private void Navigate()
+    {
+        _navigationManager.NavigateTo($"/param/{value}");
     }
 }

@@ -8,11 +8,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazyLoading.Client", "Clien
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazyLoading.Shared", "Shared\LazyLoading.Shared.csproj", "{4D002879-1FB0-45E0-B422-23BDD3A435EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyLoad1", "LazyLoad1\LazyLoad1.csproj", "{615B641B-69E3-476C-A4DF-E051B8D54C53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazyLoad1", "LazyLoad1\LazyLoad1.csproj", "{615B641B-69E3-476C-A4DF-E051B8D54C53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyLoad2", "LazyLoad2\LazyLoad2.csproj", "{A385A7BC-AC35-4364-81DD-62030F09407E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazyLoad2", "LazyLoad2\LazyLoad2.csproj", "{A385A7BC-AC35-4364-81DD-62030F09407E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotLazyLoaded", "LazyLoadShared\NotLazyLoaded.csproj", "{263618E4-8851-4088-8900-CCBC3E06A3F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotLazyLoaded", "LazyLoadShared\NotLazyLoaded.csproj", "{263618E4-8851-4088-8900-CCBC3E06A3F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

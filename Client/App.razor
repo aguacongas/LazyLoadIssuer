@@ -46,7 +46,7 @@
             return LoadAssemblyAsync("LazyLoad1.dll");
         }
 
-        if (path.StartsWith("fetchdata"))
+        if (path.StartsWith("fetchdata") || path.StartsWith("param"))
         {
             return LoadAssemblyAsync($"LazyLoad2.dll");
         }
